@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="0" number="4" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="0" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="4" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="4" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="ANALOG_DEVICES_AD8132ARZ_0">
+                    <description>SP Amp DIFF AMP Single 5.5V/11V 8-Pin SOIC N Tube</description>
+                    <wire layer="51" y2="2.45" width="0.15" x2="-1.95" y1="-2.45" x1="-1.95"/>
+                    <wire layer="51" y2="2.45" width="0.15" x2="1.95" y1="2.45" x1="-1.95"/>
+                    <wire layer="51" y2="-2.45" width="0.15" x2="1.95" y1="2.45" x1="1.95"/>
+                    <wire layer="51" y2="-2.45" width="0.15" x2="-1.95" y1="-2.45" x1="1.95"/>
+                    <wire layer="41" y2="2.95" width="0.1" x2="-4.153" y1="-2.95" x1="-4.153"/>
+                    <wire layer="41" y2="2.95" width="0.1" x2="4.153" y1="2.95" x1="-4.153"/>
+                    <wire layer="41" y2="-2.95" width="0.1" x2="4.153" y1="2.95" x1="4.153"/>
+                    <wire layer="41" y2="-2.95" width="0.1" x2="-4.153" y1="-2.95" x1="4.153"/>
+                    <wire layer="21" y2="2.45" width="0.15" x2="-0.679" y1="-2.45" x1="-0.679"/>
+                    <wire layer="21" y2="2.45" width="0.15" x2="0.679" y1="2.45" x1="-0.679"/>
+                    <wire layer="21" y2="-2.45" width="0.15" x2="0.679" y1="2.45" x1="0.679"/>
+                    <wire layer="21" y2="-2.45" width="0.15" x2="-0.679" y1="-2.45" x1="0.679"/>
+                    <text layer="25" align="bottom-left" y="3.65" x="-4.653" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="1.955" x="-4.678" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="2.474" dy="0.622" y="1.905" x="-2.416" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="2.474" dy="0.622" y="0.635" x="-2.416" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="2.474" dy="0.622" y="-0.635" x="-2.416" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="2.474" dy="0.622" y="-1.905" x="-2.416" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="2.474" dy="0.622" y="-1.905" x="2.416" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="2.474" dy="0.622" y="-0.635" x="2.416" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="2.474" dy="0.622" y="0.635" x="2.416" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="2.474" dy="0.622" y="1.905" x="2.416" rot="R0" cream="yes"/>
+                </package>
+                <package name="ANALOG_DEVICES_AD8132ARZ_1">
+                    <description>SP Amp DIFF AMP Single 5.5V/11V 8-Pin SOIC N Tube</description>
+                    <wire layer="51" y2="2.45" width="0.15" x2="-1.95" y1="-2.45" x1="-1.95"/>
+                    <wire layer="51" y2="2.45" width="0.15" x2="1.95" y1="2.45" x1="-1.95"/>
+                    <wire layer="51" y2="-2.45" width="0.15" x2="1.95" y1="2.45" x1="1.95"/>
+                    <wire layer="51" y2="-2.45" width="0.15" x2="-1.95" y1="-2.45" x1="1.95"/>
+                    <wire layer="41" y2="2.7" width="0.1" x2="-3.703" y1="-2.7" x1="-3.703"/>
+                    <wire layer="41" y2="2.7" width="0.1" x2="3.703" y1="2.7" x1="-3.703"/>
+                    <wire layer="41" y2="-2.7" width="0.1" x2="3.703" y1="2.7" x1="3.703"/>
+                    <wire layer="41" y2="-2.7" width="0.1" x2="-3.703" y1="-2.7" x1="3.703"/>
+                    <wire layer="21" y2="2.45" width="0.15" x2="-0.779" y1="-2.45" x1="-0.779"/>
+                    <wire layer="21" y2="2.45" width="0.15" x2="0.779" y1="2.45" x1="-0.779"/>
+                    <wire layer="21" y2="-2.45" width="0.15" x2="0.779" y1="2.45" x1="0.779"/>
+                    <wire layer="21" y2="-2.45" width="0.15" x2="-0.779" y1="-2.45" x1="0.779"/>
+                    <text layer="25" align="bottom-left" y="3.15" x="-3.953" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="1.905" x="-4.403" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="2.174" dy="0.582" y="1.905" x="-2.366" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="2.174" dy="0.582" y="0.635" x="-2.366" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="2.174" dy="0.582" y="-0.635" x="-2.366" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="2.174" dy="0.582" y="-1.905" x="-2.366" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="2.174" dy="0.582" y="-1.905" x="2.366" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="2.174" dy="0.582" y="-0.635" x="2.366" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="2.174" dy="0.582" y="0.635" x="2.366" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="2.174" dy="0.582" y="1.905" x="2.366" rot="R0" cream="yes"/>
+                </package>
+                <package name="ANALOG_DEVICES_AD8132ARZ_2">
+                    <description>SP Amp DIFF AMP Single 5.5V/11V 8-Pin SOIC N Tube</description>
+                    <wire layer="51" y2="2.45" width="0.15" x2="-1.95" y1="-2.45" x1="-1.95"/>
+                    <wire layer="51" y2="2.45" width="0.15" x2="1.95" y1="2.45" x1="-1.95"/>
+                    <wire layer="51" y2="-2.45" width="0.15" x2="1.95" y1="2.45" x1="1.95"/>
+                    <wire layer="51" y2="-2.45" width="0.15" x2="-1.95" y1="-2.45" x1="1.95"/>
+                    <wire layer="41" y2="2.55" width="0.1" x2="-3.353" y1="-2.55" x1="-3.353"/>
+                    <wire layer="41" y2="2.55" width="0.1" x2="3.353" y1="2.55" x1="-3.353"/>
+                    <wire layer="41" y2="-2.55" width="0.1" x2="3.353" y1="2.55" x1="3.353"/>
+                    <wire layer="41" y2="-2.55" width="0.1" x2="-3.353" y1="-2.55" x1="3.353"/>
+                    <wire layer="21" y2="2.45" width="0.15" x2="-0.879" y1="-2.45" x1="-0.879"/>
+                    <wire layer="21" y2="2.45" width="0.15" x2="0.879" y1="2.45" x1="-0.879"/>
+                    <wire layer="21" y2="-2.45" width="0.15" x2="0.879" y1="2.45" x1="0.879"/>
+                    <wire layer="21" y2="-2.45" width="0.15" x2="-0.879" y1="-2.45" x1="0.879"/>
+                    <text layer="25" align="bottom-left" y="2.85" x="-3.453" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="1.905" x="-4.103" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="1.874" dy="0.542" y="1.905" x="-2.316" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="1.874" dy="0.542" y="0.635" x="-2.316" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="1.874" dy="0.542" y="-0.635" x="-2.316" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="1.874" dy="0.542" y="-1.905" x="-2.316" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="1.874" dy="0.542" y="-1.905" x="2.316" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="1.874" dy="0.542" y="-0.635" x="2.316" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="1.874" dy="0.542" y="0.635" x="2.316" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="1.874" dy="0.542" y="1.905" x="2.316" rot="R0" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="ANALOG_DEVICES_AD8132ARZ_0_0">
+                    <description>SP Amp DIFF AMP Single 5.5V/11V 8-Pin SOIC N Tube</description>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="0.0" y1="-35.56" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="20.32" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-35.56" width="0.254" x2="20.32" y1="-5.08" x1="20.32"/>
+                    <wire layer="94" y2="-35.56" width="0.254" x2="0.0" y1="-35.56" x1="20.32"/>
+                    <wire layer="94" y2="-27.94" width="0.508" x2="2.54" y1="-12.7" x1="2.54"/>
+                    <wire layer="94" y2="-20.32" width="0.508" x2="17.78" y1="-27.94" x1="2.54"/>
+                    <wire layer="94" y2="-12.7" width="0.508" x2="2.54" y1="-20.32" x1="17.78"/>
+                    <wire layer="94" y2="-20.32" width="0.508" x2="17.78" y1="-20.32" x1="20.32"/>
+                    <wire layer="94" y2="-15.24" width="0.508" x2="2.54" y1="-15.24" x1="0.0"/>
+                    <wire layer="94" y2="-20.32" width="0.508" x2="2.54" y1="-20.32" x1="0.0"/>
+                    <wire layer="94" y2="-25.4" width="0.508" x2="2.54" y1="-25.4" x1="0.0"/>
+                    <wire layer="94" y2="-12.7" width="0.508" x2="15.494" y1="-12.7" x1="20.32"/>
+                    <wire layer="94" y2="-18.034" width="0.508" x2="15.494" y1="-12.7" x1="15.494"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="0.0" y1="-15.24" x1="0.0"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="20.32" y1="-20.32" x1="20.32"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="0.0" y1="-25.4" x1="0.0"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="20.32" y1="-12.7" x1="20.32"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="0.0" y1="-33.02" x1="0.0"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="0.0" y1="-7.62" x1="0.0"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="20.32" y1="-33.02" x1="20.32"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="0.0" y1="-20.32" x1="0.0"/>
+                    <text layer="95" align="top-left" y="-2.794" x="-0.508" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-36.322" x="-0.254" rot="R0" size="2.54">AD8132ARZ</text>
+                    <text layer="95" align="top-left" y="-14.732" x="3.81" rot="R0" size="2.54">+</text>
+                    <text layer="95" align="top-left" y="-23.876" x="4.318" rot="R0" size="2.54">-</text>
+                    <pin direction="hiz" name="+IN" visible="pad" length="middle" y="-15.24" x="-5.08"/>
+                    <pin direction="pas" name="+OUT" visible="pad" length="middle" y="-20.32" x="25.4" rot="R180"/>
+                    <pin direction="hiz" name="-IN" visible="pad" length="middle" y="-25.4" x="-5.08"/>
+                    <pin direction="pas" name="-OUT" visible="pad" length="middle" y="-12.7" x="25.4" rot="R180"/>
+                    <pin direction="pas" name="NC" visible="both" length="middle" y="-33.02" x="-5.08"/>
+                    <pin direction="pwr" name="V+" visible="both" length="middle" y="-7.62" x="-5.08"/>
+                    <pin direction="pwr" name="V-" visible="both" length="middle" y="-33.02" x="25.4" rot="R180"/>
+                    <pin direction="pas" name="VOCM" visible="pad" length="middle" y="-20.32" x="-5.08"/>
+                    <circle y="-18.542" x="15.24" layer="94" radius="0.508" width="0.254"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="ANALOG_DEVICES_AD8132ARZ">
+                    <description>SP Amp DIFF AMP Single 5.5V/11V 8-Pin SOIC N Tube</description>
+                    <gates>
+                        <gate name="G$0" symbol="ANALOG_DEVICES_AD8132ARZ_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="ANALOG_DEVICES_AD8132ARZ_0_0" package="ANALOG_DEVICES_AD8132ARZ_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="-IN"/>
+                                <connect gate="G$0" pad="2" pin="VOCM"/>
+                                <connect gate="G$0" pad="3" pin="V+"/>
+                                <connect gate="G$0" pad="4" pin="+OUT"/>
+                                <connect gate="G$0" pad="5" pin="-OUT"/>
+                                <connect gate="G$0" pad="6" pin="V-"/>
+                                <connect gate="G$0" pad="7" pin="NC"/>
+                                <connect gate="G$0" pad="8" pin="+IN"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_description" value="Differential Amplifiers IC Hi-Speed"/>
+                                    <attribute name="mouser_part_number" value="584-AD8132ARZ"/>
+                                    <attribute name="mfg_package_ident_rev" value="A"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":"8","long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":1350000,"max":1750000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":250000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":1100000,"max":1650000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":4800000,"max":5000000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":5800000,"max":6200000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":3800000,"max":4000000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":170000,"max":250000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":350000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":30000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_0" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":"8","long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":1350000,"max":1750000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":250000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":1100000,"max":1650000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":4800000,"max":5000000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":5800000,"max":6200000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":3800000,"max":4000000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":170000,"max":250000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":450000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":"8","long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":1350000,"max":1750000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":250000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":1100000,"max":1650000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":4800000,"max":5000000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":5800000,"max":6200000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":3800000,"max":4000000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":170000,"max":250000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":250000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":10000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="min_dual_supply_voltage" value="1.35V"/>
+                                    <attribute name="max_dual_supply_voltage" value="5.5V"/>
+                                    <attribute name="bandwidth" value="350MHz"/>
+                                    <attribute name="temperature_range_high" value="+125°C"/>
+                                    <attribute name="nominal_supply_current" value="10.7-12mA"/>
+                                    <attribute name="digikey_description" value="IC OPAMP DIFF 1 CIRCUIT 8SOIC"/>
+                                    <attribute name="device_class_L1" value="Integrated Circuits (ICs)"/>
+                                    <attribute name="digikey_part_number" value="AD8132ARZ-ND"/>
+                                    <attribute name="max_supply_voltage" value="11V"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="output_current_per_channel" value="70mA"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="datasheet" value="https://www.analog.com/media/en/technical-documentation/data-sheets/AD8132.pdf"/>
+                                    <attribute name="MF" value="Analog Devices"/>
+                                    <attribute name="MPN" value="AD8132ARZ"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="1.75mm"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="mfg_package_ident" value="R-8"/>
+                                    <attribute name="footprint_variant_name_0" value="IPC_A"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_C"/>
+                                    <attribute name="package" value="SOIC8"/>
+                                    <attribute name="temperature_range_low" value="-40°C"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="input_bias_current" value="3uA"/>
+                                    <attribute name="device_class_L3" value="Amplifiers - Op Amps"/>
+                                    <attribute name="standoff_height" value="0.1mm"/>
+                                    <attribute name="mfg_package_ident_date" value="01/2007"/>
+                                    <attribute name="input_offset_voltage" value="1.5-7mV"/>
+                                    <attribute name="number_of_channels" value="1"/>
+                                    <attribute name="min_supply_voltage" value="2.7V"/>
+                                    <attribute name="max_junction_temp" value="+150°C"/>
+                                    <attribute name="device_class_L2" value="Linear ICs"/>
+                                    <attribute name="mfg_package_ident_component_id" value="4a06652283d64251"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="ANALOG_DEVICES_AD8132ARZ_0_1" package="ANALOG_DEVICES_AD8132ARZ_1">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="-IN"/>
+                                <connect gate="G$0" pad="2" pin="VOCM"/>
+                                <connect gate="G$0" pad="3" pin="V+"/>
+                                <connect gate="G$0" pad="4" pin="+OUT"/>
+                                <connect gate="G$0" pad="5" pin="-OUT"/>
+                                <connect gate="G$0" pad="6" pin="V-"/>
+                                <connect gate="G$0" pad="7" pin="NC"/>
+                                <connect gate="G$0" pad="8" pin="+IN"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_description" value="Differential Amplifiers IC Hi-Speed"/>
+                                    <attribute name="mouser_part_number" value="584-AD8132ARZ"/>
+                                    <attribute name="mfg_package_ident_rev" value="A"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":"8","long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":1350000,"max":1750000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":250000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":1100000,"max":1650000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":4800000,"max":5000000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":5800000,"max":6200000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":3800000,"max":4000000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":170000,"max":250000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":350000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":30000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_0" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":"8","long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":1350000,"max":1750000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":250000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":1100000,"max":1650000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":4800000,"max":5000000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":5800000,"max":6200000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":3800000,"max":4000000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":170000,"max":250000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":450000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":"8","long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":1350000,"max":1750000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":250000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":1100000,"max":1650000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":4800000,"max":5000000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":5800000,"max":6200000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":3800000,"max":4000000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":170000,"max":250000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":250000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":10000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="min_dual_supply_voltage" value="1.35V"/>
+                                    <attribute name="max_dual_supply_voltage" value="5.5V"/>
+                                    <attribute name="bandwidth" value="350MHz"/>
+                                    <attribute name="temperature_range_high" value="+125°C"/>
+                                    <attribute name="nominal_supply_current" value="10.7-12mA"/>
+                                    <attribute name="digikey_description" value="IC OPAMP DIFF 1 CIRCUIT 8SOIC"/>
+                                    <attribute name="device_class_L1" value="Integrated Circuits (ICs)"/>
+                                    <attribute name="digikey_part_number" value="AD8132ARZ-ND"/>
+                                    <attribute name="max_supply_voltage" value="11V"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="output_current_per_channel" value="70mA"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="datasheet" value="https://www.analog.com/media/en/technical-documentation/data-sheets/AD8132.pdf"/>
+                                    <attribute name="MF" value="Analog Devices"/>
+                                    <attribute name="MPN" value="AD8132ARZ"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="1.75mm"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="mfg_package_ident" value="R-8"/>
+                                    <attribute name="footprint_variant_name_0" value="IPC_A"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_C"/>
+                                    <attribute name="package" value="SOIC8"/>
+                                    <attribute name="temperature_range_low" value="-40°C"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="input_bias_current" value="3uA"/>
+                                    <attribute name="device_class_L3" value="Amplifiers - Op Amps"/>
+                                    <attribute name="standoff_height" value="0.1mm"/>
+                                    <attribute name="mfg_package_ident_date" value="01/2007"/>
+                                    <attribute name="input_offset_voltage" value="1.5-7mV"/>
+                                    <attribute name="number_of_channels" value="1"/>
+                                    <attribute name="min_supply_voltage" value="2.7V"/>
+                                    <attribute name="max_junction_temp" value="+150°C"/>
+                                    <attribute name="device_class_L2" value="Linear ICs"/>
+                                    <attribute name="mfg_package_ident_component_id" value="4a06652283d64251"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="ANALOG_DEVICES_AD8132ARZ_0_2" package="ANALOG_DEVICES_AD8132ARZ_2">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="-IN"/>
+                                <connect gate="G$0" pad="2" pin="VOCM"/>
+                                <connect gate="G$0" pad="3" pin="V+"/>
+                                <connect gate="G$0" pad="4" pin="+OUT"/>
+                                <connect gate="G$0" pad="5" pin="-OUT"/>
+                                <connect gate="G$0" pad="6" pin="V-"/>
+                                <connect gate="G$0" pad="7" pin="NC"/>
+                                <connect gate="G$0" pad="8" pin="+IN"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_description" value="Differential Amplifiers IC Hi-Speed"/>
+                                    <attribute name="mouser_part_number" value="584-AD8132ARZ"/>
+                                    <attribute name="mfg_package_ident_rev" value="A"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":"8","long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":1350000,"max":1750000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":250000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":1100000,"max":1650000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":4800000,"max":5000000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":5800000,"max":6200000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":3800000,"max":4000000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":170000,"max":250000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":350000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":30000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_0" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":"8","long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":1350000,"max":1750000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":250000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":1100000,"max":1650000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":4800000,"max":5000000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":5800000,"max":6200000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":3800000,"max":4000000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":170000,"max":250000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":450000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":"8","long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":1350000,"max":1750000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":250000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":1100000,"max":1650000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":4800000,"max":5000000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":5800000,"max":6200000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":3800000,"max":4000000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":170000,"max":250000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":250000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":10000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="min_dual_supply_voltage" value="1.35V"/>
+                                    <attribute name="max_dual_supply_voltage" value="5.5V"/>
+                                    <attribute name="bandwidth" value="350MHz"/>
+                                    <attribute name="temperature_range_high" value="+125°C"/>
+                                    <attribute name="nominal_supply_current" value="10.7-12mA"/>
+                                    <attribute name="digikey_description" value="IC OPAMP DIFF 1 CIRCUIT 8SOIC"/>
+                                    <attribute name="device_class_L1" value="Integrated Circuits (ICs)"/>
+                                    <attribute name="digikey_part_number" value="AD8132ARZ-ND"/>
+                                    <attribute name="max_supply_voltage" value="11V"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="output_current_per_channel" value="70mA"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="datasheet" value="https://www.analog.com/media/en/technical-documentation/data-sheets/AD8132.pdf"/>
+                                    <attribute name="MF" value="Analog Devices"/>
+                                    <attribute name="MPN" value="AD8132ARZ"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="1.75mm"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="mfg_package_ident" value="R-8"/>
+                                    <attribute name="footprint_variant_name_0" value="IPC_A"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_C"/>
+                                    <attribute name="package" value="SOIC8"/>
+                                    <attribute name="temperature_range_low" value="-40°C"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="input_bias_current" value="3uA"/>
+                                    <attribute name="device_class_L3" value="Amplifiers - Op Amps"/>
+                                    <attribute name="standoff_height" value="0.1mm"/>
+                                    <attribute name="mfg_package_ident_date" value="01/2007"/>
+                                    <attribute name="input_offset_voltage" value="1.5-7mV"/>
+                                    <attribute name="number_of_channels" value="1"/>
+                                    <attribute name="min_supply_voltage" value="2.7V"/>
+                                    <attribute name="max_junction_temp" value="+150°C"/>
+                                    <attribute name="device_class_L2" value="Linear ICs"/>
+                                    <attribute name="mfg_package_ident_component_id" value="4a06652283d64251"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
